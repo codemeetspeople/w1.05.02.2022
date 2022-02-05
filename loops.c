@@ -5,9 +5,10 @@ int main() {
 
     scanf("%d", &limit);
 
-    for ( int i = 0; i <= limit; i++ ) {
-        printf("%d\n", i);
+    for ( int i = 1; i < limit; i++ ) {
+        printf("%d ", i);
     }
+    printf("%d\n", limit);
 
     return 0;
 }

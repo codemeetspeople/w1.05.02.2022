@@ -5,7 +5,11 @@ int main() {
 
     scanf("%d", &limit);
 
-    for ( int i = 1; i < limit; i++ ) {
+    if ( limit % 2 == 0 ) {
+        limit -= 1;
+    }
+
+    for ( int i = 1; i < limit; i += 2 ) {
         printf("%d ", i);
     }
     printf("%d\n", limit);

@@ -7,7 +7,6 @@ void printSequence(int last) {
     printf("%d\n", last);
 }
 
-
 int main() {
     int limit = 10;
 
